@@ -2166,7 +2166,14 @@ PikachuEvosMoves:
 ; Evolutions
 	db EV_ITEM, THUNDER_STONE, 1, PIKACHU
 ; Learnset
-
+	db 7,  LIFE_DEW
+	db 10, DISARM_VOICE
+	db 15, BRUTAL_SWING
+	db 20, PSYBEAM
+	db 25, DRAIN_KISS
+	db 30, DAZZ_GLEAM
+	db 35, CALM_MIND
+	db 40, PSYCHIC_M
 	db 0
 
 SkittyEvosMoves:
