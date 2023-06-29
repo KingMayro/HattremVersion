@@ -1,0 +1,87 @@
+BorderPalettes:
+	INCBIN "gfx/sgb/border.tilemap"
+
+	ds $100
+
+	RGB  4, 21, 28
+	RGB 17, 13, 19
+	RGB 29, 19, 21
+	RGB  0,  0,  0
+
+	RGB 31, 31, 25
+	RGB 31, 31, 25
+	RGB 31, 31, 25
+	RGB 31, 31, 25
+
+	RGB 31, 31, 25
+	RGB 31, 31, 25
+	RGB 31, 31, 25
+	RGB 31, 31, 25
+
+	RGB 31, 31, 25
+	RGB 31, 31, 25
+	RGB 31, 31, 25
+	RGB 31, 31, 25
+
+	RGB 18, 24, 18
+	RGB 29, 19, 21
+	RGB  4, 21, 28
+	RGB  0,  0,  0
+
+	RGB 31, 31, 25
+	RGB 31, 31, 25
+	RGB 31, 31, 25
+	RGB 31, 31, 25
+
+	RGB 31, 31, 25
+	RGB 31, 31, 25
+	RGB 31, 31, 25
+	RGB 31, 31, 25
+
+	RGB 31, 31, 25
+	RGB 31, 31, 25
+	RGB 31, 31, 25
+	RGB 31, 31, 25
+
+	RGB 18, 24, 18
+	RGB 17, 13, 19
+	RGB  4, 21, 28
+	RGB  0,  0,  0
+
+	RGB 31, 31, 25
+	RGB 31, 31, 25
+	RGB 31, 31, 25
+	RGB 31, 31, 25
+
+	RGB 31, 31, 25
+	RGB 31, 31, 25
+	RGB 31, 31, 25
+	RGB 31, 31, 25
+
+	RGB 31, 31, 25
+	RGB 31, 31, 25
+	RGB 31, 31, 25
+	RGB 31, 31, 25
+
+	RGB  4, 21, 28
+	RGB 17, 13, 19
+	RGB 29, 19, 21
+	RGB  0,  0,  0
+
+	RGB 31, 31, 25
+	RGB 31, 31, 25
+	RGB 31, 31, 25
+	RGB 31, 31, 25
+
+	RGB 31, 31, 25
+	RGB 31, 31, 25
+	RGB 31, 31, 25
+	RGB 31, 31, 25
+
+	RGB 31, 31, 25
+	RGB 31, 31, 25
+	RGB 31, 31, 25
+	RGB 31, 31, 25
+
+SGBBorderGraphics:
+	INCBIN "gfx/sgb/border.2bpp"
