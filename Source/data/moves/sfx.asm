@@ -10,7 +10,7 @@ MoveSoundTable:
 	db SFX_BATTLE_0D,          $10, $60 ; FIRE_PUNCH
 	db SFX_BATTLE_0D,          $20, $80 ; ICE_PUNCH
 	db SFX_BATTLE_0D,          $00, $a0 ; THUNDERPUNCH
-	db SFX_DAMAGE,             $00, $80 ; SCRATCH
+	db SFX_BATTLE_14,          $00, $20 ; CONFUSION
 	db SFX_BATTLE_0F,          $20, $40 ; VICEGRIP
 	db SFX_BATTLE_0F,          $00, $80 ; GUILLOTINE
 	db SFX_BATTLE_0E,          $00, $a0 ; RAZOR_WIND
@@ -62,7 +62,7 @@ MoveSoundTable:
 	db SFX_BATTLE_29,          $f0, $e0 ; BLIZZARD
 	db SFX_PSYBEAM,            $00, $80 ; PSYBEAM
 	db SFX_BATTLE_2A,          $f0, $60 ; BUBBLEBEAM
-	db SFX_BATTLE_28,          $00, $80 ; AURORA_BEAM
+	db SFX_SUPER_EFFECTIVE,    $10, $a0 ; PLAY_NICE
 	db SFX_BATTLE_36,          $00, $80 ; HYPER_BEAM
 	db SFX_PECK,               $01, $a0 ; PECK
 	db SFX_BATTLE_13,          $f0, $20 ; DRILL_PECK
@@ -93,7 +93,7 @@ MoveSoundTable:
 	db SFX_BATTLE_29,          $11, $20 ; FISSURE
 	db SFX_DAMAGE,             $10, $40 ; DIG
 	db SFX_BATTLE_0F,          $10, $c0 ; TOXIC
-	db SFX_BATTLE_14,          $00, $20 ; CONFUSION
+	db SFX_DAMAGE,             $00, $80 ; SCRATCH
 	db SFX_PSYCHIC_M,          $00, $80 ; PSYCHIC_M
 	db SFX_BATTLE_35,          $11, $18 ; HYPNOSIS
 	db SFX_BATTLE_09,          $20, $c0 ; MEDITATE
@@ -167,12 +167,11 @@ MoveSoundTable:
 	db SFX_BATTLE_2C,          $d8, $04 ; SUBSTITUTE
 	db SFX_SUPER_EFFECTIVE,    $10, $a0 ; BRUTAL_SWING
 	db SFX_SUPER_EFFECTIVE,    $10, $a0 ; DISARM_VOICE
-	db SFX_SUPER_EFFECTIVE,    $10, $a0 ; PLAY_NICE
+	db SFX_BATTLE_28,          $00, $80 ; AURORA_BEAM
 	db SFX_SUPER_EFFECTIVE,    $10, $a0 ; LIFE_DEW
 	db SFX_SUPER_EFFECTIVE,    $10, $a0 ; DAZZ_GLEAM
 	db SFX_SUPER_EFFECTIVE,    $10, $a0 ; CALM_KISS
 	db SFX_SUPER_EFFECTIVE,    $10, $a0 ; DRAIN_KISS
-	db SFX_SUPER_EFFECTIVE,    $10, $a0 ; HAT_TACKLE
 	db SFX_BATTLE_0B,          $00, $80 ; STRUGGLE
 	assert_table_length NUM_ATTACKS
 	db SFX_BATTLE_0B,          $00, $80

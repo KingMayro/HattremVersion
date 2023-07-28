@@ -9,7 +9,7 @@ AttackAnimationPointers:
 	dw FirePunchAnim
 	dw IcePunchAnim
 	dw ThunderPunchAnim
-	dw ScratchAnim
+	dw ConfusionAnim
 	dw VicegripAnim
 	dw GuillotineAnim
 	dw RazorWindAnim
@@ -61,7 +61,7 @@ AttackAnimationPointers:
 	dw BlizzardAnim
 	dw PsyBeamAnim
 	dw BubbleBeamAnim
-	dw AuroraBeamAnim
+	dw PlayNiceAnim
 	dw HyperBeamAnim
 	dw PeckAnim
 	dw DrillPeckAnim
@@ -92,7 +92,7 @@ AttackAnimationPointers:
 	dw FissureAnim
 	dw DigAnim
 	dw ToxicAnim
-	dw ConfusionAnim
+	dw ScratchAnim
 	dw PsychicAnim
 	dw HypnosisAnim
 	dw MeditateAnim
@@ -166,12 +166,11 @@ AttackAnimationPointers:
 	dw SubstituteAnim
 	dw BrutalSwingAnim
 	dw DisarmVoiceAnim
-	dw PlayNiceAnim
+	dw AuroraBeamAnim
 	dw LifeDewAnim
 	dw DazzGleamAnim
 	dw CalmMindAnim
 	dw DrainingKissAnim
-	dw HatTackleAnim
 	dw StruggleAnim
 	assert_table_length NUM_ATTACKS
 	dw ShowPicAnim
@@ -1321,11 +1320,6 @@ DrainingKissAnim:
 	battle_anim NO_MOVE, SE_DARK_SCREEN_FLASH
 	battle_anim NO_MOVE, SE_DELAY_ANIMATION_10
 	battle_anim NO_MOVE, SE_SPIRAL_BALLS_INWARD
-	db -1 ; end
-
-HatTackleAnim:
-	battle_anim LEECH_SEED, SE_MOVE_MON_HORIZONTALLY
-	battle_anim NO_MOVE, SE_RESET_MON_POSITION
 	db -1 ; end
 
 

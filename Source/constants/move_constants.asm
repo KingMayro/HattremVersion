@@ -15,7 +15,7 @@
 	const FIRE_PUNCH   ; 07
 	const ICE_PUNCH    ; 08
 	const THUNDERPUNCH ; 09
-	const SCRATCH      ; 0a
+	const CONFUSION    ; 0a
 	const VICEGRIP     ; 0b
 	const GUILLOTINE   ; 0c
 	const RAZOR_WIND   ; 0d
@@ -67,7 +67,7 @@
 	const BLIZZARD     ; 3b
 	const PSYBEAM      ; 3c
 	const BUBBLEBEAM   ; 3d
-	const AURORA_BEAM  ; 3e
+	const PLAY_NICE    ; 3e
 	const HYPER_BEAM   ; 3f
 	const PECK         ; 40
 	const DRILL_PECK   ; 41
@@ -98,7 +98,7 @@
 	const FISSURE      ; 5a
 	const DIG          ; 5b
 	const TOXIC        ; 5c
-	const CONFUSION    ; 5d
+	const SCRATCH      ; 5d
 	const PSYCHIC_M    ; 5e
 	const HYPNOSIS     ; 5f
 	const MEDITATE     ; 60
@@ -172,13 +172,12 @@
 	const SUBSTITUTE   ; a4
 	const BRUTAL_SWING ; a5
 	const DISARM_VOICE ; a6
-	const PLAY_NICE    ; a7
+	const AURORA_BEAM  ; a7
 	const LIFE_DEW     ; a8
 	const DAZZ_GLEAM   ; a9
 	const CALM_MIND    ; b0
 	const DRAIN_KISS   ; b1	
-	const HAT_TACKLE   ; b2
-	const STRUGGLE     ; b3
+	const STRUGGLE     ; b2
 DEF NUM_ATTACKS EQU const_value - 1
 
 	; Moves do double duty as animation identifiers.

@@ -3,8 +3,8 @@ ViridianForestWildMons:
 	db  3, CATERPIE
 	db  5, METAPOD
 	db  4, WEEDLE
-	db  5, KAKUNA
 	db  5, PIKACHUREAL
+	db  5, KAKUNA
 	db  6, PIDGEY
 	db  6, CATERPIE
 	db  6, PIKACHUREAL

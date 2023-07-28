@@ -732,7 +732,7 @@ Printer_PrepareSurfingMinigameHighScoreTileMap::
 	db $7f, $7f, $7f, $05, $06, $07, $08, $09, $0a, $0b, $0c, $0d, $0e, $7f, $7f, $7f
 
 .PikachusBeachString:
-	db "Pikachu's Beach@"
+	db "Hattrem's Beach@"
 .HiScoreString:
 	db "'s Hi-Score@"
 .PointsString:

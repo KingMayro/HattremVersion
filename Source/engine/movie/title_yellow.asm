@@ -47,6 +47,8 @@ TitleScreen_PlacePikaSpeechBubble:
 
 ; version number
 
+	hlcoord 17, 17
+	ld [hl], $0C
 	hlcoord 18, 17
 	ld [hl], $FE
 	hlcoord 19, 17

@@ -87,6 +87,15 @@ CreditsTextPointers:
 	dw CreditsText_Nakamichi
 	dw CreditsText_Yoshimura
 	dw CreditsText_Yamazaki
+	dw CreditsText_HVersion
+	dw CreditsText_Mayro
+	dw CreditsText_MonMenu
+	dw CreditsText_Emerald
+	dw CreditsText_Chamber
+	dw CreditsText_HatVoice
+	dw CreditsText_Meggo
+	dw CreditsText_Thanks
+	dw CreditsText_Pret
 	assert_table_length NUM_CRED_STRINGS
 
 CreditsText_Version:
@@ -265,5 +274,22 @@ CreditsText_Yoshimura:
 	db -6, "KAMON YOSHIMURA@"
 CreditsText_Yamazaki:
 	db -6, "SAKAE YAMAZAKI@"
-
-
+CreditsText_HVersion:
+	db -6, "HATTREM VERSION"
+	next   "      BY@"
+CreditsText_Mayro:
+	db -4, "KING MAYRO@"
+CreditsText_MonMenu:
+	db -7, "MON MENU GRAPHICS@"
+CreditsText_Emerald:
+	db -5, "BLUE EMERALD@"
+CreditsText_Chamber:
+	db -4, " CHAMBER_ @"
+CreditsText_HatVoice:
+	db -6, "HATTREM VOICE@"
+CreditsText_Meggo:
+	db -4, " MEGGOBRO @"
+CreditsText_Thanks:
+	db -6, "SPECIAL THANKS@"
+CreditsText_Pret:
+	db -6, "PRET COMMUNITY@"

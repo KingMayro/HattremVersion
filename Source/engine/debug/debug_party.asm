@@ -18,8 +18,8 @@ DebugTeam:
 	db PERSIAN, 80
 	db JIGGLYPUFF, 15
 	db STARTER_PIKACHU, 5
-	db SKITTY, 20
-	db BULBASAUR, 20
+	db VAPOREON, 20
+	db MACHAMP, 20
 	db -1 ; end
 
 DebugStart:
